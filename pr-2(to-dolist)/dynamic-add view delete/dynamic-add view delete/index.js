@@ -16,7 +16,9 @@ app.get('/',(req,res)=> {
     return res.render('index',{
        all:users
     });
-})
+
+    
+}),mahadev
 
 // record add 
 app.post('/recordInsert',(req,res)=>{
